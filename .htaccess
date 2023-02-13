@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^saleslt\.com$ [NC]
+RewriteRule ^(.*)$ http://saleslt.com/$1 [L,R]
