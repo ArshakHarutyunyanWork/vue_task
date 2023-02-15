@@ -1,0 +1,30 @@
+.header {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+
+  &__title {
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  &__steepsCount {
+    font-weight: 400;
+    color: rgb(111, 111, 111);
+  }
+
+  &__btn {
+    padding: 10px;
+    font-size: 18px;
+    color: rgb(111, 111, 111);
+    border: none;
+    background: none;
+    text-decoration: underline;
+    transition: all 0.1s ease-in;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
